@@ -13,22 +13,14 @@
   padding: 0;
   margin-top: 50px;
 
-  &_item {
-    background-color: aquamarine;
-    width: 100px;
-    height: 150px;
+  & img {
+    width: 160px;
+    height: 195px;
     border-radius: 10px;
     border: 1px solid lightgrey;
   }
+}
 
-  &_item2 {
-    background-color: aquamarine;
-    width: 100px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-  }
+.hidden {
+  display: none;
 }
